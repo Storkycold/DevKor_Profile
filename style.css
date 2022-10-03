@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* 강원에듀서체 */
+
+html {
+    background-color: #F5EFE6;
+}
+
+.outer_box { 
+    font-family: "GangwonEdu_OTFBoldA"; 
+    font-size: 25px;
+    /* display: flex;  */
+    background-color: #F5EFE6;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border: 1px solid black;
+    /* border-color: black; */
+    /* display: flex; */
+}
+
+.pic { 
+    width: 30%; 
+    height: 30%;
+    border-radius: 70%;
+    overflow: hidden;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin: auto;
+}
+
+.profile { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name { 
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "GangwonEdu_OTFBoldA"; 
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: #F5EFE6;
+    display: flex;
+}
+
+body,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+.instagram { 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "GangwonEdu_OTFBoldA"; 
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #F5EFE6;
+    display: flex;
+}
+
+.school { 
+    font-size: 20px;
+}
+
+.personal_info { 
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "GangwonEdu_OTFBoldA"; 
+    margin: auto;
+    background-color: #F5EFE6;
+}
+
+.about_me { 
+    font-size: 20px;
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bottom_box { 
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background-color: red; */
+    /* margin: auto; */
+}
+
+.body_text { 
+    margin-bottom: auto;
+    font-size: 20px;
+    /* background-color: green; */
+}
+
+.tech_text { 
+    font-size: 20px;
+    /* width: 50%; */
+    /* height: 15%; */
+    margin-top: auto;
+    margin-bottom: auto;
+    /* display: flex; */
+    /* background-color: purple; */
+}
+
+.tech { 
+    flex-direction: row;
+}
